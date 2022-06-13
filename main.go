@@ -44,7 +44,7 @@ func main() {
 		Addr: addrstr,
 	}
 
-	log.Printf("serve at htpp://%s for %s", addrstr, *dir)
+	log.Printf("serve at http://%s for %s", addrstr, *dir)
 
 	log.Fatal(s.ListenAndServe())
 }
